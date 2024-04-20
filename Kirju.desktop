@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Kirju
+Exec=python3 /usr/share/kauritarkvara/Kirju.py
+Icon=accessories-text-editor
+Categories=Application;Utility;
+Comment=Lihtne kirjutamiseprogramm
+Type=Application
+Terminal=false
+Version=0.1
+
