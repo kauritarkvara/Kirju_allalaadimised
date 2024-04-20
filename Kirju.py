@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
 import time
+def muutus():
+    tekst.pack(fill="both", expand=True)
 def teave():
     messagebox.showinfo("Teave", "Kirju - Pythoniga tehtud kirjutamiseprogramm, mis on kerge! Versioon 1.0. Veebileht kauritarkvara.github.io/Kirjutamiseprogramm")
 def sule():
@@ -49,4 +51,5 @@ aken.configure(menu=menüü)
 aken.protocol("WM_DELETE_WINDOW", sule)
 aken.bind("<Control-s>", lambda event: salvesta())
 aken.bind("<Control-o>", lambda event: ava())
+aken.bind("<Configure>", lambda event: muutus())
 aken.mainloop()
