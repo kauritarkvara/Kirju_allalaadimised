@@ -1,3 +1,3 @@
 ----------------------------------------------------------------------------Kirju-------------------------------------------------------------------------------------------------
-Pythoniga tehtud kirjutamise programmm
-Litsents on GNU GENERAL PUBLIC LICENSE
+- Pythoniga tehtud kirjutamise programmm.
+- Litsents on GNU GENERAL PUBLIC LICENSE
