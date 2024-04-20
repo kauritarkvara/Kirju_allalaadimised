@@ -5,7 +5,7 @@ import time
 def muutus():
     tekst.pack(fill="both", expand=True)
 def teave():
-    messagebox.showinfo("Teave", "Kirju - Pythoniga tehtud kirjutamiseprogramm, mis on kerge! Versioon 1.0. Veebileht kauritarkvara.github.io/Kirjutamiseprogramm")
+    messagebox.showinfo("Teave", "Kirju - Pythoniga tehtud kirjutamiseprogramm, mis on kerge! Versioon 0.2. Veebileht kauritarkvara.github.io/Kirjutamiseprogramm")
 def sule():
     def välju():
        exit()
